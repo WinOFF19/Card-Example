@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .grid {
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 300px;
+    grid-auto-rows: 233px;
+    grid-template-areas:
+      ". a a ."
+      ". a a .";
+  }
+  
+  .grid div {
+    border-radius: 5px;
+    padding: 1em;
+    background-color: #3C0753;
+  }
+  
+
+  .card {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+    width: 320px;
+    box-shadow:10px 10px;
+  }
+  
+  p{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    width: 290px;
+  }
+
+ .text-button{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+ }
+
+ .icon-button{
+    color: white;
+ }
+
+ .Facebook{
+    width: 290px;
+    border-radius: 10px;
+    background-color: #720455;
+    margin-bottom: 10px;
+  }
+
+ .Instagram{
+    width: 290px;
+    border-radius: 10px;
+    background-color: #720455;
+    margin-bottom: 10px;
+  }
+
+  .LinkedIn{
+    width: 290px;
+    border-radius: 10px;
+    background-color: #720455;
+    margin-bottom: 10px;
+  }
+
+  .Github{
+    width: 290px;
+    border-radius: 10px;
+    background-color: #E33CB7;
+    margin-bottom: 10px;
+  }
